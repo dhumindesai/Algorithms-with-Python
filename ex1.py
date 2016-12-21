@@ -1,3 +1,5 @@
+# showing the performance of the different functions
+
 import time
 def findMin_1(lNum):
     if len(lNum) == 0:

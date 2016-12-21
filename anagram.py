@@ -1,6 +1,7 @@
+## anagram function with the complexity of O(n)
+
 import timeit
 from timeit import Timer
-
 
 def isAnagram(s1,s2):
     c1 = [0]*26
