@@ -26,6 +26,6 @@ def isAnagram(s1,s2):
     
     return True
 
-t1 = Timer("isAnagram('abdbdbasd','fhsh')", "from __main__ import isAnagram")
+t1 = Timer("isAnagram('fhhs','fhsh')", "from __main__ import isAnagram")
 print t1.timeit(number=1000), "milliseconds"
 #print isAnagram("adssmam","ssmamda")
