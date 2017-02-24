@@ -1,3 +1,15 @@
+
+"""
+Suppose we could access yesterday's stock prices as a list, where:
+
+The values are the price in dollars of Apple stock.
+A higher index indicates a later time.
+So if the stock cost $500 at 10:30am and $550 at 11:00am, then:
+
+stock_prices_yesterday[60] = 500
+
+Write an efficient function that takes stock_prices_yesterday and returns the best profit I could have made from 1 purchase and 1 sale of 1 Apple stock yesterday.
+"""
 # O(n^2) complexity 
 def get_max_profit1(stock_prices_yesterday):
 
