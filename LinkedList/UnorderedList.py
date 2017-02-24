@@ -27,7 +27,7 @@ class UnoderedList:
         current = self.head
         found = False
 
-        while current.get_next() != None and not found:
+        while current != None and not found:
             if current.get_data() == item:
                 found = True
             else:
@@ -40,7 +40,7 @@ class UnoderedList:
         found = False 
         previous = None
 
-        while current.get_next() != None and not found:
+        while current != None and not found:
             if current.get_data() == item:
                 found = True
             else:
@@ -75,9 +75,11 @@ ul.add(23)
 print_list(ul.head)
 print ul.search(5)
 print ul.search(39)
-ul.remove(3)
+ul.remove(23)
 print_list(ul.head)
-"""          
+ul.remove(8)
+print_list(ul.head)
+"""
 
 
     
